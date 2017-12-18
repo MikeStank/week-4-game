@@ -1,0 +1,64 @@
+/* General Elements*/
+
+body{
+	background-image: url("../images/rustictools.jpg")
+
+}
+div{
+	background-color: white;
+	margin: 10px;
+	width: 25%;
+
+}
+div{
+	border: solid 3px #A9A9A9;
+	padding: 10px;
+
+}
+h1, h3, span{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 30pt;
+}
+ol{
+	list-style: decimal inside;
+}
+
+/* Specfic Elements*/
+div.header{
+  background-color: #282828;
+  width: 50%;
+  border: solid 3px #FFF8DC;
+  color: #FFF8DC;
+  outline-color: black;
+}
+div.gems{
+	background-color: #FFF5EE;
+}
+ div.instructions{
+	width: 50%;
+  background-color: #FFF5EE;
+}
+/* Classes */
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 15%;
+	height: 100px;
+  background-color: #FFF5EE;
+}
+.userTotal{
+	width: 15%;
+	height: 100px;
+  background-color: #FFF5EE;
+}
+.gems{
+	clear: both;
+  text-align: center;
+
+}
+.gemImage{
+	height: 60px;
+	margin: 10px;
+}
